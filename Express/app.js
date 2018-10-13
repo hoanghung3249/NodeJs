@@ -9,7 +9,7 @@ const serveIndex = require('serve-index');
 //     res.send('Hello word');
 // });
 
-app.use('/nest',(req, res, next)=> {
+app.use('/nest', function (req, res, next); => {
     // console.log("Time: ", Date.now());
     console.log('Request type: ', req.method);
     next();
