@@ -17,6 +17,11 @@ mongoose.connect(config.DB).then(()=>{
 
 app.use("/course", CourseRoute);
 
+// Handle 404
+app.use((req, res, next) => {
+    res.status(404).send("Cannot find the request!");
+});
+
 app.listen(3000, function (req, res) {
     console.log("Server start on port: 3000");
 });
