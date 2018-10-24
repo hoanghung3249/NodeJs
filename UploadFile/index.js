@@ -4,7 +4,7 @@ const PORT = 3000;
 const multer = require("multer");
 const upload = multer({dest: __dirname + '/upload'});
 
-app.use(express.static(__dirname + "/upload"));
+app.use('/upload', express.static("upload"));
 
 app.post("/upload", upload.single("avatar"), function (req, res) {
    if (req.file) {
