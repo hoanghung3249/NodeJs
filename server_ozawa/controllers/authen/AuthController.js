@@ -64,3 +64,5 @@ router.post("/register", upload.single("avatar"), function (req, res) {
     })
 
 })
+
+module.exports = router
