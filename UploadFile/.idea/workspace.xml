@@ -2,15 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9168694b-edd1-4f7f-bff1-ab31cd06675f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../server_ozawa/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server_ozawa/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server_ozawa/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server_ozawa/.idea/server_ozawa.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server_ozawa/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server_ozawa/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server_ozawa/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server_ozawa/controllers/authen/AuthController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server_ozawa/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server_ozawa/models/UserModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JWT/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MongoDB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MongoDB/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/.idea/server_ozawa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/.idea/server_ozawa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/.deps/Release/obj.target/bcrypt_lib/src/bcrypt.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/.deps/Release/obj.target/bcrypt_lib/src/bcrypt.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/.deps/Release/obj.target/bcrypt_lib/src/bcrypt_node.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/.deps/Release/obj.target/bcrypt_lib/src/bcrypt_node.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/.deps/Release/obj.target/bcrypt_lib/src/blowfish.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/.deps/Release/obj.target/bcrypt_lib/src/blowfish.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/.deps/Users/mobytelab/Documents/Learning-Nodejs/server_ozawa/node_modules/bcrypt/lib/binding/bcrypt_lib.node.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/bcrypt_lib.node" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/bcrypt_lib.node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/obj.target/bcrypt_lib/src/bcrypt.o" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/obj.target/bcrypt_lib/src/bcrypt.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/obj.target/bcrypt_lib/src/bcrypt_node.o" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/obj.target/bcrypt_lib/src/bcrypt_node.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/obj.target/bcrypt_lib/src/blowfish.o" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/obj.target/bcrypt_lib/src/blowfish.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/action_after_build.target.mk" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/action_after_build.target.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/bcrypt_lib.target.mk" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/bcrypt_lib.target.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/config.gypi" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/config.gypi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/lib/binding/bcrypt_lib.node" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/lib/binding/bcrypt_lib.node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/package-lock.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,8 +41,9 @@
     <session id="2116701391">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -91,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+              <caret line="4" column="50" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -198,15 +215,15 @@
       <workItem from="1540378905570" duration="30000" />
       <workItem from="1541487371666" duration="56000" />
       <workItem from="1541489519941" duration="101000" />
+      <workItem from="1541510723858" duration="746000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3228000" />
+    <option name="totallyTimeSpent" value="3974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -253,7 +270,7 @@
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="50" />
         </state>
       </provider>
     </entry>

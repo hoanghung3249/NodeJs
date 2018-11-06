@@ -2,16 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47ca7d94-7108-4e78-a87c-273910412b72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../server_ozawa/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server_ozawa/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server_ozawa/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server_ozawa/.idea/server_ozawa.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server_ozawa/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server_ozawa/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server_ozawa/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server_ozawa/models/APIError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server_ozawa/controllers/authen/AuthController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server_ozawa/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server_ozawa/models/UserModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JWT/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UploadFile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UploadFile/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/.idea/server_ozawa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/.idea/server_ozawa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/.deps/Release/obj.target/bcrypt_lib/src/bcrypt.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/.deps/Release/obj.target/bcrypt_lib/src/bcrypt.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/.deps/Release/obj.target/bcrypt_lib/src/bcrypt_node.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/.deps/Release/obj.target/bcrypt_lib/src/bcrypt_node.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/.deps/Release/obj.target/bcrypt_lib/src/blowfish.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/.deps/Release/obj.target/bcrypt_lib/src/blowfish.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/.deps/Users/mobytelab/Documents/Learning-Nodejs/server_ozawa/node_modules/bcrypt/lib/binding/bcrypt_lib.node.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/bcrypt_lib.node" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/bcrypt_lib.node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/obj.target/bcrypt_lib/src/bcrypt.o" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/obj.target/bcrypt_lib/src/bcrypt.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/obj.target/bcrypt_lib/src/bcrypt_node.o" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/obj.target/bcrypt_lib/src/bcrypt_node.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/obj.target/bcrypt_lib/src/blowfish.o" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/Release/obj.target/bcrypt_lib/src/blowfish.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/action_after_build.target.mk" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/action_after_build.target.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/bcrypt_lib.target.mk" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/bcrypt_lib.target.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/config.gypi" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/build/config.gypi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/lib/binding/bcrypt_lib.node" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/lib/binding/bcrypt_lib.node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/node_modules/bcrypt/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server_ozawa/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../server_ozawa/package-lock.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,10 +41,11 @@
     <session id="1395203015">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -80,11 +96,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="21" column="53" lean-forward="true" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+              <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -98,10 +114,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/CourseRoute.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="763">
+            <state relative-caret-position="780">
               <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
             </state>
           </provider>
@@ -224,15 +240,16 @@
       <workItem from="1539692454591" duration="793000" />
       <workItem from="1541487416753" duration="2000" />
       <workItem from="1541487426072" duration="3483000" />
+      <workItem from="1541509378470" duration="11000" />
+      <workItem from="1541509625810" duration="1351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8082000" />
+    <option name="totallyTimeSpent" value="9444000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="709" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1310564" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -260,10 +277,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/CourseRoute.js">
+    <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="763">
-          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+        <state relative-caret-position="315">
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -281,17 +305,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/routes/CourseRoute.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="53" lean-forward="true" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+        <state relative-caret-position="780">
+          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
         </state>
       </provider>
     </entry>

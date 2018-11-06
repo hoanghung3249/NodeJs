@@ -5,6 +5,8 @@ const bodyParser = require("body-parser")
 const PORT = 3000
 const APIError = require("./models/APIError")
 const httpStatus = require("http-status")
+const db = require("./db")
+const AuthController = require("./controllers/authen/AuthController")
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}));
@@ -16,6 +18,8 @@ app.use("/", function (req, res) {
         status: false
     })
 })
+
+app.use("/auth", AuthController)
 
 app.listen(PORT, function (req, res) {
     console.log("Server start on Port: ", PORT)
