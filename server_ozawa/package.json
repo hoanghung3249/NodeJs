@@ -1,0 +1,20 @@
+{
+  "name": "server_ozawa",
+  "version": "1.0.0",
+  "description": "Server for Ozawa app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HungNguyen",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "http-status": "^1.2.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.9",
+    "multer": "^1.4.1"
+  }
+}
