@@ -21,6 +21,14 @@ const UserSchema = new Schema({
     },
     avatarUrl: {
         type: String
+    },
+    gender: {
+        type: Number,
+        //0: male, 1: female
+        default: 0
+    },
+    age: {
+        type: Number
     }
 },{
     collection: "users"

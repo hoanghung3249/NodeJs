@@ -9,7 +9,10 @@ const db = require("./db")
 const AuthController = require("./controllers/authen/AuthController")
 
 app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.urlencoded({extended: false}));
+app.use("/upload", express.static("upload"))
+
+app.use("/auth", AuthController)
 
 app.use("/", function (req, res) {
     const apiError = new APIError("Cannot find a page!", httpStatus.NOT_FOUND, 404)
@@ -18,8 +21,6 @@ app.use("/", function (req, res) {
         status: false
     })
 })
-
-app.use("/auth", AuthController)
 
 app.listen(PORT, function (req, res) {
     console.log("Server start on Port: ", PORT)
