@@ -13,6 +13,7 @@ const path = require("path")
 const fs = require("fs")
 const { promisify } = require("util")
 const unlinkAsync = promisify(fs.unlink)
+const config = require("../../config/config")
 
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
@@ -35,10 +36,25 @@ router.post("/login", function (req, res) {
         statusCode: apiError.code
     })
 
-    const hashPassword = bcrypt.hashSync(req.body.password, 8)
 
     User.findOne({email: req.body.email}).then(user => {
+        const passwordIsValid = bcrypt.compareSync(req.body.password, user.password)
 
+        if (!passwordIsValid) return res.json({
+            status: false,
+            message: "Password is not correct!",
+            statusCode: 401
+        })
+
+        const token = jwt.sign({id: user._id}, config.secret)
+
+        return res.json({
+            status: true,
+            message: "Login success",
+            statusCode: 200,
+            data: user,
+            token: token
+        })
     })
 
 })
@@ -101,11 +117,13 @@ router.post("/register", upload.single("avatar"), function (req, res) {
 
             if (user) {
                 apiError = new APIError("Create user success", httpStatus.OK, 200)
+                const token = jwt.sign({id: user._id}, config.secret)
                 return res.json({
                     status: true,
                     message: apiError.message,
                     statusCode: apiError.code,
-                    data: user
+                    data: user,
+                    token: token
                 })
             }
         })

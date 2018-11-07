@@ -12,8 +12,6 @@
     <orderEntry type="library" name="@types/express" level="application" />
     <orderEntry type="library" name="@types/jsonwebtoken" level="application" />
     <orderEntry type="library" name="@types/multer" level="application" />
-    <orderEntry type="library" name="@types/body-parser" level="application" />
-    <orderEntry type="library" name="@types/express-session" level="application" />
     <orderEntry type="library" name="@types/bcrypt" level="application" />
   </component>
 </module>

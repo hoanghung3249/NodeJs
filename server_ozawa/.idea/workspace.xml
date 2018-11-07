@@ -2,7 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c1bf5a2-8b3a-4207-9cbc-333deb3b87a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MongoDB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MongoDB/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UploadFile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UploadFile/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/server_ozawa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/server_ozawa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/authen/AuthController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/authen/AuthController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bcrypt/build/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bcrypt/build/Release/.deps/Release/bcrypt_lib.node.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bcrypt/build/Release/.deps/Release/obj.target/action_after_build.stamp.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bcrypt/build/Release/.deps/Release/obj.target/bcrypt_lib/src/bcrypt.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bcrypt/build/Release/.deps/Release/obj.target/bcrypt_lib/src/bcrypt_node.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bcrypt/build/Release/.deps/Release/obj.target/bcrypt_lib/src/blowfish.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bcrypt/build/Release/.deps/Users/mobytelab/Documents/Learning-Nodejs/server_ozawa/node_modules/bcrypt/lib/binding/bcrypt_lib.node.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bcrypt/build/Release/bcrypt_lib.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bcrypt/build/Release/obj.target/action_after_build.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bcrypt/build/Release/obj.target/bcrypt_lib/src/bcrypt.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bcrypt/build/Release/obj.target/bcrypt_lib/src/bcrypt_node.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bcrypt/build/Release/obj.target/bcrypt_lib/src/blowfish.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bcrypt/build/action_after_build.target.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bcrypt/build/bcrypt_lib.target.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bcrypt/build/binding.Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bcrypt/build/config.gypi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bcrypt/build/gyp-mac-tool" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bcrypt/lib/binding/bcrypt_lib.node" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bcrypt/lib/binding/bcrypt_lib.node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bcrypt/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bcrypt/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/avatar-1541576762664.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/avatar-1541578309109.jpg" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,44 +82,62 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="2020" />
+          <entry key="js" value="2370" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="2020" />
+          <entry key="JavaScript" value="2370" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="3" />
+          <entry key="js" value="4" />
           <entry key="json" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="3" />
+          <entry key="JavaScript" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controllers/authen/AuthController.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="72" column="51" selection-start-line="72" selection-start-column="51" selection-end-line="72" selection-end-column="51" />
+            <state relative-caret-position="345">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/authen/AuthController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="82" column="35" lean-forward="true" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/UserModel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            <state relative-caret-position="295">
+              <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -100,8 +145,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -109,7 +154,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/APIError.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
+            <state relative-caret-position="480">
               <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
             </state>
           </provider>
@@ -134,6 +179,7 @@
         <option value="$PROJECT_DIR$/db.js" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/models/UserModel.js" />
+        <option value="$PROJECT_DIR$/config/config.js" />
         <option value="$PROJECT_DIR$/controllers/authen/AuthController.js" />
       </list>
     </option>
@@ -188,18 +234,7 @@
             <path>
               <item name="server_ozawa" type="b2602c69:ProjectViewProjectNode" />
               <item name="server_ozawa" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="authen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server_ozawa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server_ozawa" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server_ozawa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server_ozawa" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -247,13 +282,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20484000" />
+    <option name="totallyTimeSpent" value="24311000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="721" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="721" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22160445" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17950754" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -267,7 +301,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3290938" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.21621622" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31319556" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -290,37 +324,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/avatar-1541560636496.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/APIError.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/UserModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/avatar-1541560636496.jpg" />
     <entry file="file://$PROJECT_DIR$/node_modules/multer/lib/remove-uploaded-files.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -343,10 +347,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/APIError.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/authen/AuthController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="72" column="51" selection-start-line="72" selection-start-column="51" selection-end-line="72" selection-end-column="51" />
+        <state relative-caret-position="412">
+          <caret line="82" column="35" lean-forward="true" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/UserModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
         </state>
       </provider>
     </entry>
