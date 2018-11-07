@@ -25,6 +25,23 @@ const storage = multer.diskStorage({
 })
 const upload = multer({ storage: storage })
 
+router.post("/login", function (req, res) {
+
+    let apiError = new APIError("Email and Password are required!", httpStatus.UNAUTHORIZED, 401)
+
+    if (!req.body.email || !req.body.password) return res.json({
+        status: false,
+        message: apiError.message,
+        statusCode: apiError.code
+    })
+
+    const hashPassword = bcrypt.hashSync(req.body.password, 8)
+
+    User.findOne({email: req.body.email}).then(user => {
+
+    })
+
+})
 
 router.post("/register", upload.single("avatar"), function (req, res) {
     let apiError = new APIError("Username or Email missing!", httpStatus.UNAUTHORIZED, 401)
@@ -53,6 +70,7 @@ router.post("/register", upload.single("avatar"), function (req, res) {
     User.findOne({ $or: [{email: req.body.email}, {userName: req.body.userName}]  }).then(async user => {
         if (user) {
 
+            //delete image when user already exists
             await unlinkAsync(avatarUrl)
 
             return res.json({
