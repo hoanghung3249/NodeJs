@@ -26,6 +26,27 @@ const storage = multer.diskStorage({
 })
 const upload = multer({ storage: storage })
 
+function handleRequest(req, res) {
+    let apiError = new APIError("Username or Email missing!", httpStatus.UNAUTHORIZED, 401)
+
+    if (!req.body.userName || !req.body.email) {
+        return res.status(apiError.code).json({
+            status: false,
+            message: "Username or Email missing!",
+            statusCode: 401
+        })
+    }
+
+    if (!req.body.password) {
+        apiError = new APIError("Password is missing!", httpStatus.UNAUTHORIZED, 401)
+        return res.status(apiError.code).json({
+            status: false,
+            message: "Password is missing!",
+            statusCode: 401
+        })
+    }
+}
+
 router.post("/login", function (req, res) {
 
     let apiError = new APIError("Email and Password are required!", httpStatus.UNAUTHORIZED, 401)
@@ -59,25 +80,8 @@ router.post("/login", function (req, res) {
 
 })
 
-router.post("/register", upload.single("avatar"), function (req, res) {
+router.post("/register", handleRequest, upload.single("avatar"), function (req, res) {
     let apiError = new APIError("Username or Email missing!", httpStatus.UNAUTHORIZED, 401)
-
-    if (!req.body.userName || !req.body.email) {
-        return res.status(apiError.code).json({
-            status: false,
-            message: "Username or Email missing!",
-            statusCode: 401
-        })
-    }
-
-    if (!req.body.password) {
-        apiError = new APIError("Password is missing!", httpStatus.UNAUTHORIZED, 401)
-        return res.status(apiError.code).json({
-            status: false,
-            message: "Password is missing!",
-            statusCode: 401
-        })
-    }
 
     const hashPassword = bcrypt.hashSync(req.body.password, 8)
     const avatarUrl = req.file.path
