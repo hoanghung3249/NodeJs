@@ -80,6 +80,37 @@ router.post("/login", function (req, res) {
 
 })
 
+router.post("/edit-user-info", upload.single("avatar"), function (req, res) {
+    const token = req.headers["Authorization"]
+    const id = req.body.id
+
+    if (!token) return res.json({
+        status: false,
+        message: "Token is required!",
+        statusCode: httpStatus.UNAUTHORIZED
+    })
+
+    if (!id) return res.json({
+        status: false,
+        message: "User's ID is missing!",
+        statusCode: httpStatus.UNAUTHORIZED
+    })
+
+    jwt.verify(token, config.secret, function (err, decoded) {
+        if (err) return res.json({
+            status: false,
+            message: "Failed to authenticate token",
+            statusCode: 500
+        })
+
+        User.findByIdAndUpdate(id, update).then(user => {
+
+        }).catch(err => {
+
+        })
+    })
+})
+
 router.post("/register", handleRequest, upload.single("avatar"), function (req, res) {
     let apiError = new APIError("Username or Email missing!", httpStatus.UNAUTHORIZED, 401)
 
